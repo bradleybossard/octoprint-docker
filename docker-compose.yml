@@ -1,12 +1,22 @@
 version: '2'
 services:
-  octoprint:
+  octoprint-mp-select:
     build: .
-    image: octoprint/octoprint
-    container_name: octoprint
+    image: octoprint/octoprint-mp-select
+    container_name: octoprint-mp-select
     ports:
       - 5000:5000
-    # devices:
-    #  - /dev/ttyACM0:/dev/ttyACM0
+    devices:
+     - /dev/ttyUSB0:/dev/ttyUSB0
     volumes:
-     - ./config:/home/octoprint/.octoprint
+     - ./config-mp-select:/home/octoprint/.octoprint
+  octoprint-ender3:
+    build: .
+    image: octoprint/octoprint-ender3
+    container_name: octoprint-ender3
+    ports:
+      - 5001:5000
+    devices:
+     - /dev/ttyUSB1:/dev/ttyUSB1
+    volumes:
+     - ./config-ender3:/home/octoprint/.octoprint
