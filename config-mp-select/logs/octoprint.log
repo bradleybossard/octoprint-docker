@@ -159,3 +159,50 @@ Traceback (most recent call last):
     raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
 SerialException: [Errno 6] could not open port /dev/ttyUSB0: [Errno 6] No such device or address: '/dev/ttyUSB0'
 2019-06-15 17:50:23,285 - octoprint.plugins.tracking - INFO - Sent tracking event commerror_connection, payload: {'commerror_text': 'Connection error, see Terminal tab'}
+2019-06-15 18:03:23,059 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-15 18:03:39,791 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 393320}
+2019-06-15 18:07:54,819 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.83
+2019-06-15 18:07:55,002 - octoprint.server.util.flask - INFO - Passively logging in user dummy from 192.168.1.83
+2019-06-15 18:07:57,863 - octoprint.util.comm - INFO - Changing monitoring state from "Offline" to "Detecting serial port"
+2019-06-15 18:07:57,946 - octoprint.util.comm - INFO - Changing monitoring state from "Detecting serial port" to "Opening serial port"
+2019-06-15 18:07:57,955 - octoprint.util.comm - INFO - Changing monitoring state from "Opening serial port" to "Detecting baudrate"
+2019-06-15 18:07:58,976 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-06-15 18:07:58,987 - octoprint.util.comm - INFO - Changing monitoring state from "Detecting baudrate" to "Operational"
+2019-06-15 18:07:59,006 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-06-15 18:08:05,645 - octoprint.util.comm - INFO - Printer reports firmware name "Repetier_0.91"
+2019-06-15 18:08:05,646 - octoprint.util.comm - INFO - Detected Repetier firmware, enabling relevant features for issue free communication
+2019-06-15 18:08:06,486 - octoprint.plugins.tracking - INFO - Sent tracking event printer_connected, payload: {u'printer_baudrate': 0, u'printer_port': u'AUTO', 'firmware_name': 'Repetier_0.91'}
+2019-06-15 18:08:07,386 - octoprint.plugins.tracking - INFO - Sent tracking event printer_safety_warning, payload: {'printer_safety_warning_type': u'firmware-unsafe', 'printer_safety_check_name': u'repetier_before_092'}
+2019-06-15 18:09:02,735 - octoprint.util.comm - ERROR - Unexpected error while reading from serial port
+Traceback (most recent call last):
+  File "/opt/octoprint/venv/lib/python2.7/site-packages/OctoPrint-1.3.11-py2.7.egg/octoprint/util/comm.py", line 2739, in _readline
+    ret = self._serial.readline()
+  File "/opt/octoprint/venv/lib/python2.7/site-packages/OctoPrint-1.3.11-py2.7.egg/octoprint/util/comm.py", line 4844, in readline
+    c = self.read(1)
+  File "/opt/octoprint/venv/lib/python2.7/site-packages/pyserial-3.4-py2.7.egg/serial/serialposix.py", line 501, in read
+    'device reports readiness to read but returned no data '
+SerialException: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2019-06-15 18:09:02,750 - octoprint.util.comm - ERROR - Please see https://faq.octoprint.org/serialerror for possible reasons of this.
+2019-06-15 18:09:02,792 - octoprint.util.comm - INFO - Changing monitoring state from "Operational" to "Offline (Error: SerialException: 'device reports readiness to read but returned no data (device disconnected or multiple access on port?)' @ comm.py:_readline:2739)"
+2019-06-15 18:10:52,923 - octoprint.util.comm - INFO - Changing monitoring state from "Offline" to "Opening serial port"
+2019-06-15 18:10:52,931 - octoprint.util.comm - INFO - Changing monitoring state from "Opening serial port" to "Connecting"
+2019-06-15 18:10:52,944 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-06-15 18:10:53,611 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-06-15 18:11:00,528 - octoprint.util.comm - INFO - Changing monitoring state from "Connecting" to "Operational"
+2019-06-15 18:11:00,556 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-06-15 18:11:00,655 - octoprint.util.comm - INFO - Printer reports firmware name "Repetier_0.91"
+2019-06-15 18:11:00,666 - octoprint.util.comm - INFO - Detected Repetier firmware, enabling relevant features for issue free communication
+2019-06-15 18:11:01,555 - octoprint.plugins.tracking - INFO - Sent tracking event printer_connected, payload: {u'printer_baudrate': 115200, u'printer_port': u'/dev/ttyUSB0', 'firmware_name': 'Repetier_0.91'}
+2019-06-15 18:11:02,316 - octoprint.plugins.tracking - INFO - Sent tracking event printer_safety_warning, payload: {'printer_safety_warning_type': u'firmware-unsafe', 'printer_safety_check_name': u'repetier_before_092'}
+2019-06-15 18:18:23,064 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-15 18:18:39,766 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 394220}
+2019-06-15 18:19:21,106 - octoprint.filemanager.analysis - INFO - Starting analysis of local:WDI3_20x20_Generic_PLA.gcode
+2019-06-15 18:19:21,110 - octoprint.filemanager.analysis - INFO - Invoking analysis command: /opt/octoprint/venv/bin/python -m octoprint analysis gcode --speed-x=6000 --speed-y=6000 --max-t=10 --throttle=0.0 --throttle-lines=100 /home/octoprint/.octoprint/uploads/WDI3_20x20_Generic_PLA.gcode
+2019-06-15 18:19:24,918 - octoprint.filemanager.analysis - INFO - Analysis of entry local:WDI3_20x20_Generic_PLA.gcode finished, needed 3.81s
+2019-06-15 18:19:39,709 - octoprint.printer.standard.job - INFO - Print job selected - origin: local, path: WDI3_20x20_Generic_PLA.gcode, owner: dummy, user: dummy
+2019-06-15 18:19:39,725 - octoprint.util.comm - INFO - Changing monitoring state from "Operational" to "Starting"
+2019-06-15 18:19:39,738 - octoprint.printer.standard.job - INFO - Print job started - origin: local, path: WDI3_20x20_Generic_PLA.gcode, owner: dummy, user: dummy
+2019-06-15 18:19:39,781 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-06-15 18:19:39,805 - octoprint.util.comm - INFO - Changing monitoring state from "Starting" to "Printing"
+2019-06-15 18:19:40,513 - octoprint.plugins.tracking - INFO - Sent tracking event print_started, payload: {'origin': 'local', 'file': '690b7df22d676deabaaf36e66ffcf1ac2d5ab703'}
+2019-06-15 18:20:10,950 - octoprint.util.comm - INFO - Communication timeout while printing, trying to trigger response from printer.

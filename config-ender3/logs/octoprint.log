@@ -153,3 +153,12 @@
 2019-06-15 17:48:07,199 - octoprint.plugins.tracking - INFO - Sent tracking event print_started, payload: {'origin': 'local', 'file': '150900c37ec482176f31349607ff2841aca9ed5d'}
 2019-06-15 17:48:21,990 - octoprint.server.heartbeat - INFO - Server heartbeat <3
 2019-06-15 17:49:47,977 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 392489}
+2019-06-15 17:58:10,867 - octoprint.util.comm - INFO - Finished in 604.597 s.
+2019-06-15 17:58:10,870 - octoprint.util.comm - INFO - Changing monitoring state from "Printing" to "Finishing"
+2019-06-15 17:58:10,907 - octoprint.printer.standard.job - INFO - Print job done - origin: local, path: CE3_20x20_Generic_PLA.gcode, owner: dummy
+2019-06-15 17:58:11,022 - octoprint.util.comm - INFO - Changing monitoring state from "Finishing" to "Operational"
+2019-06-15 17:58:11,760 - octoprint.plugins.tracking - INFO - Sent tracking event print_done, payload: {'origin': 'local', 'file': '150900c37ec482176f31349607ff2841aca9ed5d', 'elapsed': 604}
+2019-06-15 18:03:21,995 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-15 18:04:47,934 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 393389}
+2019-06-15 18:18:22,000 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-15 18:19:48,008 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 394289}

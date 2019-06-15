@@ -1,13 +1,21 @@
 {
     "CE3_20x20_Generic_PLA.gcode": {
+        "statistics": {
+            "averagePrintTime": {
+                "_default": 604.6344072570209
+            },
+            "lastPrintTime": {
+                "_default": 604.6344072570209
+            }
+        },
         "hash": "a619b51b2c2bc5afe69cbb150131cd41cb9eeb7f",
         "analysis": {
             "estimatedPrintTime": 531.5367370038216,
             "printingArea": {
                 "maxZ": 0.3,
-                "minX": 0.1,
                 "maxX": 213.891,
                 "maxY": 213.891,
+                "minX": 0.1,
                 "minY": 20.0,
                 "minZ": 0.2
             },
@@ -22,6 +30,14 @@
                     "length": 510.80730000000034
                 }
             }
-        }
+        },
+        "history": [
+            {
+                "timestamp": 1560621490.925367,
+                "printTime": 604.6344072570209,
+                "printerProfile": "_default",
+                "success": true
+            }
+        ]
     }
 }

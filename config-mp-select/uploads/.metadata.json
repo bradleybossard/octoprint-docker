@@ -1,0 +1,27 @@
+{
+    "WDI3_20x20_Generic_PLA.gcode": {
+        "hash": "4200da7f516cf7bc343582f02fd3f3acaff98c38",
+        "analysis": {
+            "estimatedPrintTime": 23.904345159815634,
+            "printingArea": {
+                "maxZ": null,
+                "minX": null,
+                "maxX": null,
+                "maxY": null,
+                "minY": null,
+                "minZ": null
+            },
+            "dimensions": {
+                "width": 0.0,
+                "depth": 0.0,
+                "height": 0.0
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 0.0,
+                    "length": 6.0
+                }
+            }
+        }
+    }
+}
