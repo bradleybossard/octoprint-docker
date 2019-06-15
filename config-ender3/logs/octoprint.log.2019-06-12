@@ -1,0 +1,258 @@
+2019-06-12 04:48:20,353 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 04:48:20,361 - octoprint.server - INFO - --- Log roll over detected ---------------------------------------------------
+2019-06-12 04:48:20,363 - octoprint.server - INFO - OctoPrint 1.3.11
+2019-06-12 04:48:20,374 - octoprint.plugin.core - INFO - 14 plugin(s) registered with the system:
+|  Action Command Prompt Support (bundled) = /opt/octoprint/venv/lib/python2.7/site-packages/OctoPrint-1.3.11-py2.7.egg/octoprint/plugins/action_command_prompt
+|  Announcement Plugin (bundled) = /opt/octoprint/venv/lib/python2.7/site-packages/OctoPrint-1.3.11-py2.7.egg/octoprint/plugins/announcements
+|  Anonymous Usage Tracking (bundled) = /opt/octoprint/venv/lib/python2.7/site-packages/OctoPrint-1.3.11-py2.7.egg/octoprint/plugins/tracking
+|  Application Keys Plugin (bundled) = /opt/octoprint/venv/lib/python2.7/site-packages/OctoPrint-1.3.11-py2.7.egg/octoprint/plugins/appkeys
+|  Backup & Restore (bundled) = /opt/octoprint/venv/lib/python2.7/site-packages/OctoPrint-1.3.11-py2.7.egg/octoprint/plugins/backup
+|  Core Wizard (bundled) = /opt/octoprint/venv/lib/python2.7/site-packages/OctoPrint-1.3.11-py2.7.egg/octoprint/plugins/corewizard
+|  Discovery (bundled) = /opt/octoprint/venv/lib/python2.7/site-packages/OctoPrint-1.3.11-py2.7.egg/octoprint/plugins/discovery
+|  Error Tracking (bundled) = /opt/octoprint/venv/lib/python2.7/site-packages/OctoPrint-1.3.11-py2.7.egg/octoprint/plugins/errortracking
+|  Force Login (bundled) = /opt/octoprint/venv/lib/python2.7/site-packages/OctoPrint-1.3.11-py2.7.egg/octoprint/plugins/forcelogin
+|  Logging (bundled) = /opt/octoprint/venv/lib/python2.7/site-packages/OctoPrint-1.3.11-py2.7.egg/octoprint/plugins/logging
+|  Plugin Manager (bundled) = /opt/octoprint/venv/lib/python2.7/site-packages/OctoPrint-1.3.11-py2.7.egg/octoprint/plugins/pluginmanager
+|  Printer Safety Check (bundled) = /opt/octoprint/venv/lib/python2.7/site-packages/OctoPrint-1.3.11-py2.7.egg/octoprint/plugins/printer_safety_check
+|  Software Update (bundled) = /opt/octoprint/venv/lib/python2.7/site-packages/OctoPrint-1.3.11-py2.7.egg/octoprint/plugins/softwareupdate
+|  Virtual Printer (bundled) = /opt/octoprint/venv/lib/python2.7/site-packages/OctoPrint-1.3.11-py2.7.egg/octoprint/plugins/virtual_printer
+2019-06-12 04:48:20,413 - octoprint.environment - INFO - Detected environment is Python 2.7.16 under Linux (linux2). Details:
+|  hardware:
+|    cores: 4
+|    freq: 1296.0
+|    ram: 1047601152
+|  os:
+|    id: linux
+|    platform: linux2
+|  python:
+|    pip: 19.1.1
+|    version: 2.7.16
+|    virtualenv: /opt/octoprint/venv
+2019-06-12 04:48:20,414 - octoprint.server - INFO - ------------------------------------------------------------------------------
+2019-06-12 04:49:43,930 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 86485}
+2019-06-12 05:03:20,357 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 05:04:43,950 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 87385}
+2019-06-12 05:18:20,360 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 05:19:43,970 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 88285}
+2019-06-12 05:33:20,365 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 05:34:43,961 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 89185}
+2019-06-12 05:48:20,370 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 05:49:43,977 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 90085}
+2019-06-12 06:03:20,374 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 06:04:43,979 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 90985}
+2019-06-12 06:18:20,381 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 06:19:44,052 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 91885}
+2019-06-12 06:33:20,386 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 06:34:43,967 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 92785}
+2019-06-12 06:48:20,391 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 06:49:44,015 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 93685}
+2019-06-12 07:03:20,395 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 07:04:44,082 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 94585}
+2019-06-12 07:18:20,398 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 07:19:44,031 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 95485}
+2019-06-12 07:33:20,405 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 07:34:43,941 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 96385}
+2019-06-12 07:48:20,409 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 07:49:43,981 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 97285}
+2019-06-12 08:03:20,416 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 08:04:43,964 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 98185}
+2019-06-12 08:18:20,420 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 08:19:44,070 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 99085}
+2019-06-12 08:33:20,424 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 08:34:44,083 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 99985}
+2019-06-12 08:48:20,428 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 08:49:43,995 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 100885}
+2019-06-12 09:03:20,432 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 09:04:44,055 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 101785}
+2019-06-12 09:18:20,437 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 09:19:44,066 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 102685}
+2019-06-12 09:33:20,442 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 09:34:44,073 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 103585}
+2019-06-12 09:48:20,446 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 09:49:44,110 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 104485}
+2019-06-12 10:03:20,453 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 10:04:44,070 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 105385}
+2019-06-12 10:18:20,456 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 10:19:44,038 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 106285}
+2019-06-12 10:33:20,462 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 10:34:44,106 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 107185}
+2019-06-12 10:48:20,468 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 10:49:44,109 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 108085}
+2019-06-12 11:03:20,471 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 11:04:44,120 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 108985}
+2019-06-12 11:18:20,475 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 11:19:44,118 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 109885}
+2019-06-12 11:33:20,482 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 11:34:44,110 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 110785}
+2019-06-12 11:48:20,487 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 11:49:44,131 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 111685}
+2019-06-12 12:03:20,493 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 12:04:44,150 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 112585}
+2019-06-12 12:18:20,496 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 12:19:44,167 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 113485}
+2019-06-12 12:33:20,501 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 12:34:44,159 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 114385}
+2019-06-12 12:48:20,506 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 12:49:44,151 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 115285}
+2019-06-12 13:03:20,512 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 13:04:44,170 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 116185}
+2019-06-12 13:18:20,516 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 13:19:44,315 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 117085}
+2019-06-12 13:33:20,521 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 13:34:44,262 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 117985}
+2019-06-12 13:48:20,526 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 13:49:44,250 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 118885}
+2019-06-12 14:03:20,532 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 14:04:44,351 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 119785}
+2019-06-12 14:18:20,536 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 14:19:44,358 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 120685}
+2019-06-12 14:33:20,540 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 14:34:44,327 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 121585}
+2019-06-12 14:48:20,547 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 14:49:44,286 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 122485}
+2019-06-12 15:03:20,552 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 15:04:44,359 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 123385}
+2019-06-12 15:18:20,558 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 15:19:13,931 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.83
+2019-06-12 15:19:15,628 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.83
+2019-06-12 15:19:20,154 - octoprint.server.util.flask - INFO - Passively logging in user dummy from 192.168.1.83
+2019-06-12 15:19:32,052 - octoprint.plugins.announcements - ERROR - Could not fetch channel _important from https://octoprint.org/feeds/important.xml: 502 Server Error: Bad Gateway for url: https://octoprint.org/feeds/important.xml
+Traceback (most recent call last):
+  File "/opt/octoprint/venv/lib/python2.7/site-packages/OctoPrint-1.3.11-py2.7.egg/octoprint/plugins/announcements/__init__.py", line 356, in _get_channel_data_from_network
+    r.raise_for_status()
+  File "/opt/octoprint/venv/lib/python2.7/site-packages/requests-2.22.0-py2.7.egg/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+HTTPError: 502 Server Error: Bad Gateway for url: https://octoprint.org/feeds/important.xml
+2019-06-12 15:19:32,808 - octoprint.plugins.announcements - ERROR - Could not fetch channel _releases from https://octoprint.org/feeds/releases.xml: 502 Server Error: Bad Gateway for url: https://octoprint.org/feeds/releases.xml
+Traceback (most recent call last):
+  File "/opt/octoprint/venv/lib/python2.7/site-packages/OctoPrint-1.3.11-py2.7.egg/octoprint/plugins/announcements/__init__.py", line 356, in _get_channel_data_from_network
+    r.raise_for_status()
+  File "/opt/octoprint/venv/lib/python2.7/site-packages/requests-2.22.0-py2.7.egg/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+HTTPError: 502 Server Error: Bad Gateway for url: https://octoprint.org/feeds/releases.xml
+2019-06-12 15:19:33,565 - octoprint.plugins.announcements - ERROR - Could not fetch channel _blog from https://octoprint.org/feeds/octoblog.xml: 502 Server Error: Bad Gateway for url: https://octoprint.org/feeds/octoblog.xml
+Traceback (most recent call last):
+  File "/opt/octoprint/venv/lib/python2.7/site-packages/OctoPrint-1.3.11-py2.7.egg/octoprint/plugins/announcements/__init__.py", line 356, in _get_channel_data_from_network
+    r.raise_for_status()
+  File "/opt/octoprint/venv/lib/python2.7/site-packages/requests-2.22.0-py2.7.egg/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+HTTPError: 502 Server Error: Bad Gateway for url: https://octoprint.org/feeds/octoblog.xml
+2019-06-12 15:19:34,337 - octoprint.plugins.announcements - INFO - Loaded channel _plugins from https://plugins.octoprint.org/feed.xml in 0.76s
+2019-06-12 15:19:35,377 - octoprint.plugins.announcements - ERROR - Could not fetch channel _octopi from https://octoprint.org/feeds/octopi.xml: 502 Server Error: Bad Gateway for url: https://octoprint.org/feeds/octopi.xml
+Traceback (most recent call last):
+  File "/opt/octoprint/venv/lib/python2.7/site-packages/OctoPrint-1.3.11-py2.7.egg/octoprint/plugins/announcements/__init__.py", line 356, in _get_channel_data_from_network
+    r.raise_for_status()
+  File "/opt/octoprint/venv/lib/python2.7/site-packages/requests-2.22.0-py2.7.egg/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+HTTPError: 502 Server Error: Bad Gateway for url: https://octoprint.org/feeds/octopi.xml
+2019-06-12 15:19:38,752 - octoprint.util.pip - INFO - Using "/opt/octoprint/venv/bin/python -m pip" as command to invoke pip
+2019-06-12 15:19:43,050 - octoprint.util.pip - INFO - pip installs to /opt/octoprint/venv/lib/python2.7/site-packages/ (writable -> yes), --user flag needed -> no, virtual env -> yes
+2019-06-12 15:19:43,051 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2019-06-12 15:19:43,084 - octoprint.plugins.softwareupdate - INFO - Saved version cache to disk
+2019-06-12 15:19:44,242 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 124285}
+2019-06-12 15:33:20,564 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 15:34:44,353 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 125185}
+2019-06-12 15:48:20,571 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 15:49:44,364 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 126086}
+2019-06-12 16:03:20,575 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 16:04:44,368 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 126986}
+2019-06-12 16:18:20,579 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 16:19:44,325 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 127886}
+2019-06-12 16:33:20,585 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 16:34:44,441 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 128786}
+2019-06-12 16:48:20,589 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 16:49:44,469 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 129686}
+2019-06-12 17:03:20,595 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 17:04:44,456 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 130586}
+2019-06-12 17:18:20,600 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 17:19:44,486 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 131486}
+2019-06-12 17:33:20,608 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 17:34:44,488 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 132386}
+2019-06-12 17:48:20,614 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 17:49:44,426 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 133286}
+2019-06-12 18:03:20,617 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 18:04:44,523 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 134186}
+2019-06-12 18:18:20,621 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 18:19:44,571 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 135086}
+2019-06-12 18:33:20,625 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 18:34:44,574 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 135986}
+2019-06-12 18:48:20,629 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 18:49:44,567 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 136886}
+2019-06-12 19:03:20,631 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 19:04:44,525 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 137786}
+2019-06-12 19:18:20,635 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 19:19:44,606 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 138686}
+2019-06-12 19:33:20,639 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 19:34:44,620 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 139586}
+2019-06-12 19:48:20,644 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 19:49:44,623 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 140486}
+2019-06-12 20:03:20,648 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 20:04:44,619 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 141386}
+2019-06-12 20:18:20,654 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 20:19:44,618 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 142286}
+2019-06-12 20:33:20,661 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 20:34:44,608 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 143186}
+2019-06-12 20:48:20,665 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 20:49:44,668 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 144086}
+2019-06-12 21:03:20,668 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 21:04:44,644 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 144986}
+2019-06-12 21:18:20,676 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 21:19:44,710 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 145886}
+2019-06-12 21:33:20,680 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 21:34:44,701 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 146786}
+2019-06-12 21:48:20,684 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 21:49:44,664 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 147686}
+2019-06-12 22:03:20,688 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 22:04:44,725 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 148586}
+2019-06-12 22:18:20,695 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 22:19:44,694 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 149486}
+2019-06-12 22:33:20,699 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 22:34:44,759 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 150386}
+2019-06-12 22:48:20,702 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 22:49:44,761 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 151286}
+2019-06-12 23:03:20,704 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 23:04:44,775 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 152186}
+2019-06-12 23:18:20,710 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 23:19:44,783 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 153086}
+2019-06-12 23:33:20,715 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 23:34:44,785 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 153986}
+2019-06-12 23:48:20,721 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-12 23:49:44,791 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 154886}
+2019-06-13 00:03:20,727 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-13 00:04:44,845 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 155786}
+2019-06-13 00:18:20,731 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-13 00:19:44,834 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 156686}
+2019-06-13 00:33:20,735 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-13 00:34:44,861 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 157586}
+2019-06-13 00:48:20,739 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-13 00:49:44,840 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 158486}
+2019-06-13 01:03:20,742 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-13 01:04:44,876 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 159386}
+2019-06-13 01:18:20,746 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-13 01:19:44,866 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 160286}
+2019-06-13 01:33:20,750 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-13 01:34:44,875 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 161186}
+2019-06-13 01:48:20,754 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-13 01:49:44,891 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 162086}
+2019-06-13 02:03:20,760 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-13 02:04:44,972 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 162986}
+2019-06-13 02:18:20,766 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-13 02:19:44,970 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 163886}
+2019-06-13 02:33:20,776 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-13 02:34:45,004 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 164786}
+2019-06-13 02:48:20,782 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-13 02:49:44,993 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 165686}
+2019-06-13 03:03:20,786 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-13 03:04:44,976 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 166586}
+2019-06-13 03:18:20,789 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-13 03:19:45,016 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 167486}
+2019-06-13 03:33:20,793 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-13 03:34:45,054 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 168386}
+2019-06-13 03:48:20,798 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-13 03:49:45,009 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 169286}
+2019-06-13 04:03:20,803 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-13 04:04:45,083 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 170186}
+2019-06-13 04:18:20,808 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-13 04:19:45,080 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 171086}
+2019-06-13 04:33:20,812 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-06-13 04:34:45,077 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 171986}

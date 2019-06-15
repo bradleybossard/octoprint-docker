@@ -1,0 +1,27 @@
+{
+    "CE3_20x20_Generic_PLA.gcode": {
+        "hash": "a619b51b2c2bc5afe69cbb150131cd41cb9eeb7f",
+        "analysis": {
+            "estimatedPrintTime": 531.5367370038216,
+            "printingArea": {
+                "maxZ": 0.3,
+                "minX": 0.1,
+                "maxX": 213.891,
+                "maxY": 213.891,
+                "minY": 20.0,
+                "minZ": 0.2
+            },
+            "dimensions": {
+                "width": 213.791,
+                "depth": 193.891,
+                "height": 0.09999999999999998
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 0.0,
+                    "length": 510.80730000000034
+                }
+            }
+        }
+    }
+}

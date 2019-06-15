@@ -1,0 +1,6 @@
+/:
+- _count: 4
+  _timestamp: 1560620527.296132
+  base_url: http://orangepipc.bossard.lan:5001/
+  path: /
+  query_string: l10n=en

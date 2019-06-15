@@ -8,13 +8,13 @@ plugins:
     _config_version: 1
     channels:
       _blog:
-        read_until: 1560338100
+        read_until: 1555088400
       _important:
         read_until: 1521111600
       _octopi:
         read_until: 1549966200
       _plugins:
-        read_until: 1560211200
+        read_until: 1559520000
       _releases:
         read_until: 1557824400
   cura:

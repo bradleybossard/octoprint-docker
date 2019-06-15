@@ -7,53 +7,31 @@ plugins:
   announcements:
     _config_version: 1
     channels:
-      _blog:
-        read_until: 1560338100
       _important:
-        read_until: 1521111600
-      _octopi:
-        read_until: 1549966200
-      _plugins:
-        read_until: 1560211200
-      _releases:
-        read_until: 1557824400
+        read_until: 1478614200
   cura:
     cura_engine: /opt/cura/CuraEngine
   discovery:
     upnpUuid: 452f54a5-65e9-4251-918d-578923a26612
   errortracking:
-    unique_id: 1da38e60-91e6-4c37-8c82-874e43cd56f3
+    unique_id: 692da1b5-46e8-41b4-99f9-06d8b4ac19d4
   softwareupdate:
     _config_version: 6
   tracking:
-    enabled: true
-    unique_id: 29cb2cfc-17e4-497b-91d1-1e410b6748e2
+    unique_id: 25f5cf6d-4920-4410-8736-907e600b5970
 printerProfiles:
   default: _default
 serial:
   autoconnect: true
+  baudrate: 0
+  port: AUTO
 server:
   firstRun: false
-  onlineCheck:
-    enabled: true
-  pluginBlacklist:
-    enabled: true
   secretKey: Dnk5IiOXoMl7ZeKWLDugMEwjjgW3uWtE
   seenWizards:
-    corewizard: 3
+    corewizard: null
     cura: null
     softwareupdate: null
-    tracking: null
 slicing:
   defaultProfiles:
     cura: ultimaker
-temperature:
-  profiles:
-  - bed: 100
-    chamber: null
-    extruder: 210
-    name: ABS
-  - bed: 60
-    chamber: null
-    extruder: 180
-    name: PLA
